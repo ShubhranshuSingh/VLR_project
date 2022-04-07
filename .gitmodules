@@ -1,3 +1,6 @@
 [submodule "refer"]
 	path = refer
 	url = https://github.com/ShubhranshuSingh/refer.git
+[submodule "detr"]
+	path = detr
+	url = https://github.com/ShubhranshuSingh/detr.git
