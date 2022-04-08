@@ -3,6 +3,8 @@ chmod u+x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 rm Miniconda3-latest-Linux-x86_64.sh
 
+source ~/.bashrc
+
 conda activate base
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda install pandas scikit-learn jupyterlab matplotlib tqdm seaborn cython
