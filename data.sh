@@ -21,3 +21,6 @@ rm data/refcoco.zip
 wget https://zenodo.org/record/4729015/files/mdetr_annotations.tar.gz -P data/
 tar -xf mdetr_annotations.tar.gz
 rm mdetr_annotations.tar.gz
+
+# Final annotations + embeddings
+gdown https://drive.google.com/drive/folders/1zAz7pHj5xtyojsvyUj9HKKgEZ-7_Km1M -O data/ --folder
