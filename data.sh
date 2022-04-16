@@ -24,3 +24,6 @@ rm mdetr_annotations.tar.gz
 
 # Final annotations + embeddings
 gdown https://drive.google.com/drive/folders/1zAz7pHj5xtyojsvyUj9HKKgEZ-7_Km1M -O data/ --folder
+
+# DETR
+wget https://dl.fbaipublicfiles.com/detr/detr-r50-e632da11.pth -P data/
