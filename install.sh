@@ -7,7 +7,7 @@ source ~/.bashrc
 
 conda activate base
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-conda install pandas scikit-learn jupyterlab matplotlib tqdm seaborn cython
+conda install pandas scikit-learn jupyterlab matplotlib tqdm seaborn cython tensorboard
 conda install -c huggingface transformers
 pip install "git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI&egg=pycocotools"
 conda clean -a
